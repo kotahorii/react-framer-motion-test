@@ -1,10 +1,10 @@
 import { VFC } from 'react'
-import { MotionBox } from '../organizms/MotionBox'
+import { CustomSwitch } from '../organisms/CustomSwitch'
 
 export const Test: VFC = () => {
   return (
     <>
-      <MotionBox />
+      <CustomSwitch />
     </>
   )
 }
