@@ -1,5 +1,10 @@
 import { VFC } from 'react'
+import { MotionBox } from '../organizms/MotionBox'
 
 export const Test: VFC = () => {
-  return <></>
+  return (
+    <>
+      <MotionBox />
+    </>
+  )
 }
