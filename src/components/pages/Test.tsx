@@ -1,10 +1,6 @@
 import { VFC } from 'react'
-import { CustomSwitch } from '../organisms/CustomSwitch'
+import { ScaleCorrection } from '../organisms/ScaleCorrection'
 
 export const Test: VFC = () => {
-  return (
-    <>
-      <CustomSwitch />
-    </>
-  )
+  return <ScaleCorrection />
 }
