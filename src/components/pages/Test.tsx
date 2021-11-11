@@ -1,6 +1,6 @@
 import { VFC } from 'react'
-import { ScaleCorrection } from '../organisms/ScaleCorrection'
+import { MotionNavBar } from '../organisms/navbar/MotionNavBar'
 
 export const Test: VFC = () => {
-  return <ScaleCorrection />
+  return <MotionNavBar />
 }
